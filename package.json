@@ -2,7 +2,7 @@
   "name": "vanilla-basic",
   "version": "1.0.0",
   "scripts": {
-    "dev": "react-scripts start",
+    "dev": "react-app-rewired start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -13,6 +13,7 @@
     "@playwright/test": "^1.22.2",
     "@types/react": "^18.2.28",
     "@types/react-dom": "^18.2.13",
+    "react-app-rewired": "^2.2.1",
     "typescript": "^4.0.5"
   },
   "description": "[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview) allows you to easily build JavaScript apps in minutes. Use this repo with the [quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=vanilla-javascript) to build and customize a new static site.",
@@ -24,9 +25,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cornerstonejs/core": "^0.30.0",
+    "@cornerstonejs/core": "^1.32.2",
     "@cornerstonejs/nifti-volume-loader": "^1.32.2",
-    "@cornerstonejs/tools": "^0.42.0",
+    "@cornerstonejs/tools": "^1.32.2",
     "@microsoft/teams-js": "1.12.1",
     "@types/cornerstone-core": "^2.3.1",
     "react": "^18.2.0",
